@@ -1,11 +1,15 @@
 import './App.css'
-import { ApiCoffeeCarouselBasic } from './components/ApiCoffeeCarouselBasic'
+import { FlagsFetch } from './components/FlagsFetch'
+// import { ApiCoffeeCarouselBasic } from './components/ApiCoffeeCarouselBasic'
+// import { CatGalleryFetch } from './components/CatGalleryFetch'
 
 function App() {
 
   return (
    <div>
-      <ApiCoffeeCarouselBasic />
+      {/* <ApiCoffeeCarouselBasic /> */}
+      {/* <CatGalleryFetch /> */}
+      <FlagsFetch />
    </div>
   )
 }
